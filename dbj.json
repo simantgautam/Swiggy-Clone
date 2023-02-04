@@ -5,14 +5,7 @@
       "userEmail": "Arsh@gmail.com",
       "userPhoneNumber": "9079938742",
       "userPassword": "12345",
-      "userCart": [
-        {
-          "name": "Baby Corn Pepper Dry",
-          "price": "239",
-          "details": "Shallow-fried baby corns that are covered in a crispy batter spiced with red pepper and garam masala.",
-          "count": 1
-        }
-      ],
+      "userCart": [],
       "userAddresses": [
         {
           "flatNumber": "38",
@@ -115,6 +108,53 @@
       ],
       "userAddresses": [],
       "id": 4
+    },
+    {
+      "userName": "Arsh Goyal",
+      "userEmail": "arshgoyal188@gmail.com",
+      "userPhoneNumber": "9464979070",
+      "userPassword": "zxcvbnm1!",
+      "userCart": [
+        {
+          "name": "Baby Corn Pepper Dry",
+          "price": "239",
+          "details": "Shallow-fried baby corns that are covered in a crispy batter spiced with red pepper and garam masala.",
+          "count": 2
+        },
+        {
+          "name": "Chicken Sholay kebab",
+          "price": "289",
+          "details": "Battered Fried Tender Chicken Sauteed with Fresh Curd with special Spices",
+          "count": 2
+        },
+        {
+          "name": "Mutton Roast",
+          "price": "349",
+          "details": "Medium-sized, juicy mutton pieces dry-roasted in a spicy and tangy Indian masala.",
+          "count": 1
+        },
+        {
+          "name": "Chicken French",
+          "price": "279",
+          "details": "Shallow-fried chicken chunks covered in a crispy corn flour coating, tossed in tangy sauces.",
+          "count": 1
+        },
+        {
+          "name": "Paneer Butter Masala",
+          "price": "269",
+          "details": "A creamy indulgence of soft paneer cubes cooked in tomato and onion based gravy with undertones of whole spices.",
+          "count": 1
+        }
+      ],
+      "userAddresses": [
+        {
+          "flatNumber": "1234",
+          "landmark": "sghj",
+          "location": "Bengaluru, Karnataka",
+          "locationType": "HOME"
+        }
+      ],
+      "id": 5
     }
   ],
   "Restaurants": [

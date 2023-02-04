@@ -425,7 +425,7 @@ cardForm.addEventListener('submit',() => {
 
     // console.log(cardNumberSize.length, validthrough.length, cardcvv.length)
     
-    if(cardNumberSize.length != 16 || validthrough.length != 4 ||cardcvv.length != 3){
+    if(cardNumberSize.length != 16 || validthrough.length != 5 ||cardcvv.length != 3){
         // console.log('invalid')
         showAlertPopupBody('Invalid credentials');
     }
@@ -674,7 +674,7 @@ document.getElementById('applyPromoCode').addEventListener('click',()=>{
     let promocode = document.getElementById('promoCodeValue').value;
     let totalAmount = (document.getElementById('totalPayableAmount').innerText).substring(1);
 
-    if(promoApplyCount>=1){
+    if(promoApplyCount>=3){
         showAlertPopupBody('Already Applied')
         return;
     }

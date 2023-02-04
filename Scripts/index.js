@@ -10,7 +10,7 @@ async function displayRestuarantList() {
     document.getElementById('lowToHigh').addEventListener('click', function() {
 
         data.sort(function(a, b) { return a.approxPrice - b.approxPrice }
-
+        
         )
         displayAvailableRestaurants(data)
     })
@@ -20,6 +20,7 @@ async function displayRestuarantList() {
         data.sort(function(a, b) { return b.approxPrice - a.approxPrice }
 
         )
+
         displayAvailableRestaurants(data)
     })
 

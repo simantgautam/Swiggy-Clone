@@ -56,13 +56,11 @@ userSignupForm.addEventListener('submit', (event) => {
         }
         // console.log(userDetails);
     checkUserOnServers(userDetails);
-
-
 });
 
 function checkUserOnServers(userDetails) {
     getDataFromDataBase().then((result) => {
-        // console.log(result);
+        console.log(result);
         let ifUserAlreadyInDB = false;
         result.forEach(element => {
             if (userDetails.userEmail == element.userEmail || userDetails.userPhoneNumber == element.userPhoneNumber) {
